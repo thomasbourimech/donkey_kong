@@ -1,0 +1,18 @@
+{
+  "ressources_path":"ressources",
+  "level_path": "ressources/levels",
+  "sprite_height": 60,
+  "sprite_width": 60,
+  "tile_width":60,
+  "tile_height":60,
+  "ressources": {
+    "start": {"filename": "depart.png", "alpha":false, "sprite":false},
+    "finish": {"filename": "arrivee.png", "alpha":true, "sprite":false},
+    "wall": {"filename":"mur.png", "alpha":false, "sprite":false},
+    "dk_down": {"filename":"dk_bas.png", "alpha":true, "sprite":true},
+    "dk_up": {"filename":"dk_haut.png", "alpha":true, "sprite":true},
+    "dk_left": {"filename":"dk_gauche.png", "alpha":true, "sprite":true},
+    "dk_right": {"filename":"dk_droite.png", "alpha":true, "sprite":true},
+    "bkg": {"filename":"fond_dk.jpg", "alpha":false, "sprite":false}
+  }
+}
